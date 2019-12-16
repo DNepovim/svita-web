@@ -1,0 +1,27 @@
+{
+  "name": "svita-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dnepovim/svita-web",
+  "author": "Dominik Blaha <jsem@dominikblaha.cz>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "graphql": "^14.5.8",
+    "graphql-schema-from-json": "^0.0.3",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "^3.7.3"
+  }
+}
